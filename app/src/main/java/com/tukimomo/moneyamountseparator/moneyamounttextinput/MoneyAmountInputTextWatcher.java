@@ -19,7 +19,7 @@ public class MoneyAmountInputTextWatcher implements TextWatcher {
 
     @Override
     public void afterTextChanged(Editable editable) {
-        String formattedMoneyAmount = MoneyAmountFormatter.format(editable);
+        String formattedMoneyAmount = MoneyAmountFormatter.format(String.valueOf(editable));
         updateDisplayedAmount(editable, formattedMoneyAmount);
     }
 
