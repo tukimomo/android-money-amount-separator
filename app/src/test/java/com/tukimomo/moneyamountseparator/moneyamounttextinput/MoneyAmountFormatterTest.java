@@ -126,4 +126,12 @@ public class MoneyAmountFormatterTest {
         String actual = MoneyAmountFormatter.format(testString);
         assertEquals(expected, actual);
     }
+
+    @Test
+    public void format_whenGivenAnMinusString_shouldReturnMinusString() {
+        String testString = "-";
+        String expected = "-";
+        String actual = MoneyAmountFormatter.format(testString);
+        assertEquals(expected, actual);
+    }
 }
