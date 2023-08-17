@@ -1,7 +1,8 @@
 # android-money-amount-separator
 Description: This repository is the solution for formatting the money amount input for Android apps and is written in Java
 
-Note: Not yet supported for <b>negative</b> signed number and decimal number
+## UPDATE (Mar 13, 2023)
+Not yet supported for <b>negative</b> signed number and decimal number
 
 ## UPDATE (Aug 16, 2023)
 The code now supports negative numbers!
